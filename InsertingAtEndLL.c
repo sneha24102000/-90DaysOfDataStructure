@@ -14,7 +14,7 @@ node *createNode()
     return temp;
 }
 
-node *head;
+node *head=NULL;
 void insert()
 {
     node *temp = createNode();
